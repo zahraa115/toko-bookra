@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ .topbar{
+	 background:rgb (128,72,0);
+	 padding:10px 30px;
+ text-align:right
+ 
+}
+.tpbar a{
+	color:white;
+	text-decoration:none;
+	margin-left:15px;
+	font-size:14px;
+}
+	
+.topbar .regis{
+	color: white;
+	text-decoration:none;
+	margin-left: 15px;
+	font-size:14x;
+}
+.topbar .login {
+	background-color:rgb(100,128,0);
+	color:white;
+	padding:5px 10x;
+	border-radius: 0.5rem;
+}
+	
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu li a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #575757;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 0;
+  background-color: #444;
+  min-width: 150px;
+}
+
+.menu li:hover ul {
+  display: block;
+}
+
+.menu li ul li a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container-buku {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.kotak-buku {
+  width: 150px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+  background-color: #fff;
+}
+
+.kotak-buku:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.kotak-buku img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+.judul {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.harga {
+  color: #444;
+}
